@@ -1,38 +1,21 @@
 /* ========== Navigation ========== */
-.navigation-wrapper {
-  width: 100%;
-  margin: auto;
-  background-color: lightgray;
-}
-.navigation-wrapper nav {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.brand {
-  font-size: 1.6em;
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-nav ul li {
-  padding: 0.525em;
-  width: 60px;
-  text-align: center;
-  border-radius: 4px;
-  transition: 0.3s linear;
-}
-.nav-item:last-child {
-  background-color: blue;
-  color: #fff;
-}
-
-/* ========== Slider ============= */
-.slider {
-  height: 200px;
-}
+.header-wrapper {
+    width: 100%;
+    margin: auto;
+    background-color: lightgray;
+    box-sizing: border-box;
+  }
+  .header-wrapper nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-wrapper nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav ul li {
+    padding: 1.2em;
+  }

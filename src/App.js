@@ -1,11 +1,15 @@
-import Navigation from './components/Navigation';
-import Slider from './components/Slider'
+import './App.css';
+import Header from "./components/Header";
+import Login from './screens/login/login';
+import Container from '@mui/material/Container'
 
 function App() {
   return (
     <div className="App">
-      {/* <Navigation brand="greendev" /> */}
-      <Slider />
+      <Header brand="greendev"/>
+      <Container>
+      <Login/>
+      </Container>
     </div>
   );
 }
